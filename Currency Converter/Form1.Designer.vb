@@ -32,7 +32,6 @@ Partial Class Form1
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Title = New System.Windows.Forms.Label()
         Me.currencyAmount = New System.Windows.Forms.TextBox()
-        Me.mainText = New System.Windows.Forms.TextBox()
         Me.currencyFrom = New System.Windows.Forms.ListBox()
         Me.currencyTo = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -40,6 +39,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.convertToLabel = New System.Windows.Forms.Label()
+        Me.result = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -127,15 +127,6 @@ Partial Class Form1
         Me.currencyAmount.Size = New System.Drawing.Size(253, 20)
         Me.currencyAmount.TabIndex = 4
         '
-        'mainText
-        '
-        Me.mainText.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.mainText.Location = New System.Drawing.Point(126, 431)
-        Me.mainText.Name = "mainText"
-        Me.mainText.ReadOnly = True
-        Me.mainText.Size = New System.Drawing.Size(253, 20)
-        Me.mainText.TabIndex = 4
-        '
         'currencyFrom
         '
         Me.currencyFrom.FormattingEnabled = True
@@ -204,6 +195,15 @@ Partial Class Form1
         Me.convertToLabel.TabIndex = 6
         Me.convertToLabel.Text = "*"
         '
+        'result
+        '
+        Me.result.AutoSize = True
+        Me.result.ForeColor = System.Drawing.Color.Black
+        Me.result.Location = New System.Drawing.Point(123, 434)
+        Me.result.Name = "result"
+        Me.result.Size = New System.Drawing.Size(0, 13)
+        Me.result.TabIndex = 6
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -213,11 +213,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.convertToLabel)
+        Me.Controls.Add(Me.result)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.currencyTo)
         Me.Controls.Add(Me.currencyFrom)
-        Me.Controls.Add(Me.mainText)
         Me.Controls.Add(Me.currencyAmount)
         Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.Button5)
@@ -247,7 +247,6 @@ Partial Class Form1
     Friend WithEvents Button6 As Button
     Friend WithEvents Title As Label
     Friend WithEvents currencyAmount As TextBox
-    Friend WithEvents mainText As TextBox
     Friend WithEvents currencyFrom As ListBox
     Friend WithEvents currencyTo As ListBox
     Friend WithEvents Label1 As Label
@@ -255,4 +254,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents convertToLabel As Label
+    Friend WithEvents result As Label
 End Class

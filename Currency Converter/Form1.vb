@@ -26,10 +26,10 @@ Public Class Form1
 
             Dim sucessfulMatch As Match
             For Each sucessfulMatch In myMatches
-                mainText.Text = sucessfulMatch.Value
+                result.Text = sucessfulMatch.Value
             Next
         Catch ex As Exception
-            mainText.Text = "Unable to connect to XE"
+            result.Text = "Unable to connect to XE"
         Finally
             srRead.Close()
             Str.Close()
