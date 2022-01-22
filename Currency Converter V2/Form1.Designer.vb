@@ -25,18 +25,18 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnConvert = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.cmbFrom = New System.Windows.Forms.ComboBox()
+        Me.cmbTo = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtAmount = New System.Windows.Forms.TextBox()
+        Me.txtResult = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,14 +62,14 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'Button1
+        'btnConvert
         '
-        Me.Button1.Location = New System.Drawing.Point(129, 410)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(125, 58)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnConvert.Location = New System.Drawing.Point(129, 410)
+        Me.btnConvert.Name = "btnConvert"
+        Me.btnConvert.Size = New System.Drawing.Size(125, 58)
+        Me.btnConvert.TabIndex = 2
+        Me.btnConvert.Text = "Convert"
+        Me.btnConvert.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -116,99 +116,101 @@ Partial Class Form1
         Me.Button6.Text = "Button1"
         Me.Button6.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'cmbFrom
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"})
-        Me.ComboBox1.Location = New System.Drawing.Point(12, 286)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(166, 21)
-        Me.ComboBox1.TabIndex = 4
+        Me.cmbFrom.FormattingEnabled = True
+        Me.cmbFrom.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
+        Me.cmbFrom.Location = New System.Drawing.Point(12, 286)
+        Me.cmbFrom.Name = "cmbFrom"
+        Me.cmbFrom.Size = New System.Drawing.Size(166, 21)
+        Me.cmbFrom.TabIndex = 4
         '
-        'ComboBox2
+        'cmbTo
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"})
-        Me.ComboBox2.Location = New System.Drawing.Point(195, 286)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(166, 21)
-        Me.ComboBox2.TabIndex = 4
+        Me.cmbTo.FormattingEnabled = True
+        Me.cmbTo.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
+        Me.cmbTo.Location = New System.Drawing.Point(195, 286)
+        Me.cmbTo.Name = "cmbTo"
+        Me.cmbTo.Size = New System.Drawing.Size(166, 21)
+        Me.cmbTo.TabIndex = 4
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(13, 267)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.Size = New System.Drawing.Size(76, 13)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Convert From :"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(198, 267)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.Size = New System.Drawing.Size(66, 13)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Label2"
+        Me.Label3.Text = "Convert To :"
         '
-        'TextBox1
+        'txtAmount
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 224)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(349, 20)
-        Me.TextBox1.TabIndex = 6
+        Me.txtAmount.Location = New System.Drawing.Point(12, 224)
+        Me.txtAmount.Name = "txtAmount"
+        Me.txtAmount.Size = New System.Drawing.Size(349, 20)
+        Me.txtAmount.TabIndex = 6
         '
-        'TextBox2
+        'txtResult
         '
-        Me.TextBox2.Location = New System.Drawing.Point(12, 356)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(349, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.txtResult.Location = New System.Drawing.Point(12, 356)
+        Me.txtResult.Name = "txtResult"
+        Me.txtResult.Size = New System.Drawing.Size(349, 20)
+        Me.txtResult.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(13, 205)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.Size = New System.Drawing.Size(49, 13)
         Me.Label4.TabIndex = 5
-        Me.Label4.Text = "Label2"
+        Me.Label4.Text = "Amount :"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(9, 336)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 13)
+        Me.Label5.Size = New System.Drawing.Size(43, 13)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Label2"
+        Me.Label5.Text = "Result :"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(376, 607)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtResult)
+        Me.Controls.Add(Me.txtAmount)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.cmbTo)
+        Me.Controls.Add(Me.cmbFrom)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnConvert)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Currency Converter"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -218,18 +220,18 @@ Partial Class Form1
 
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnConvert As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents cmbFrom As ComboBox
+    Friend WithEvents cmbTo As ComboBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtAmount As TextBox
+    Friend WithEvents txtResult As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
 End Class
