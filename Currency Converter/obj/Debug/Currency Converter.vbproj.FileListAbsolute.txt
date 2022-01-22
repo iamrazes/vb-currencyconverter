@@ -1,0 +1,12 @@
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe.config
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\bin\Debug\Currency Converter.pdb
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\bin\Debug\Currency Converter.xml
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency Converter.vbproj.AssemblyReference.cache
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency_Converter.Form1.resources
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency_Converter.Resources.resources
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency Converter.vbproj.GenerateResource.cache
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency Converter.vbproj.CoreCompileInputs.cache
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency Converter.exe
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency Converter.xml
+C:\Users\RAZES\source\repos\Currency Converter\Currency Converter\obj\Debug\Currency Converter.pdb
