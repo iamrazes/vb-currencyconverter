@@ -46,7 +46,7 @@ Partial Class FORMmain
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(107, 147)
+        Me.Label1.Location = New System.Drawing.Point(108, 147)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(161, 25)
         Me.Label1.TabIndex = 0
@@ -55,7 +55,7 @@ Partial Class FORMmain
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(124, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(125, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(125, 122)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -119,8 +119,8 @@ Partial Class FORMmain
         'CMBfrom
         '
         Me.CMBfrom.FormattingEnabled = True
-        Me.CMBfrom.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
-        Me.CMBfrom.Location = New System.Drawing.Point(12, 286)
+        Me.CMBfrom.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR", "Japanese Yen - JPY", "British Pound - GBP"})
+        Me.CMBfrom.Location = New System.Drawing.Point(12, 291)
         Me.CMBfrom.Name = "CMBfrom"
         Me.CMBfrom.Size = New System.Drawing.Size(166, 21)
         Me.CMBfrom.TabIndex = 4
@@ -128,8 +128,8 @@ Partial Class FORMmain
         'CMBto
         '
         Me.CMBto.FormattingEnabled = True
-        Me.CMBto.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
-        Me.CMBto.Location = New System.Drawing.Point(195, 286)
+        Me.CMBto.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR", "Japanese Yen - JPY", "British Pound - GBP"})
+        Me.CMBto.Location = New System.Drawing.Point(195, 291)
         Me.CMBto.Name = "CMBto"
         Me.CMBto.Size = New System.Drawing.Size(166, 21)
         Me.CMBto.TabIndex = 4
@@ -137,7 +137,7 @@ Partial Class FORMmain
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(13, 267)
+        Me.Label2.Location = New System.Drawing.Point(13, 272)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(76, 13)
         Me.Label2.TabIndex = 5
@@ -146,7 +146,7 @@ Partial Class FORMmain
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(198, 267)
+        Me.Label3.Location = New System.Drawing.Point(198, 272)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 13)
         Me.Label3.TabIndex = 5

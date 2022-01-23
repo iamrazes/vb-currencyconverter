@@ -4,7 +4,6 @@ Public Class FORMmemo
     Dim tglmysql As String
 
     Private Sub FORMmemo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
         Call Starter()
     End Sub
 

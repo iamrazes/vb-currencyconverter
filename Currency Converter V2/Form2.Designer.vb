@@ -72,7 +72,7 @@ Partial Class FORMmemo
         'LBLdate
         '
         Me.LBLdate.AutoSize = True
-        Me.LBLdate.Location = New System.Drawing.Point(268, 442)
+        Me.LBLdate.Location = New System.Drawing.Point(268, 440)
         Me.LBLdate.Name = "LBLdate"
         Me.LBLdate.Size = New System.Drawing.Size(0, 13)
         Me.LBLdate.TabIndex = 3
