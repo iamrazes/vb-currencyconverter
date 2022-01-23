@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class FORMmain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,21 +22,21 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FORMmain))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnConvert = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.cmbFrom = New System.Windows.Forms.ComboBox()
-        Me.cmbTo = New System.Windows.Forms.ComboBox()
+        Me.BTNconvert = New System.Windows.Forms.Button()
+        Me.BTNgithub = New System.Windows.Forms.Button()
+        Me.BTNclose = New System.Windows.Forms.Button()
+        Me.BTNhelp = New System.Windows.Forms.Button()
+        Me.BTNmemo = New System.Windows.Forms.Button()
+        Me.BTNclear = New System.Windows.Forms.Button()
+        Me.CMBfrom = New System.Windows.Forms.ComboBox()
+        Me.CMBto = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtAmount = New System.Windows.Forms.TextBox()
-        Me.txtResult = New System.Windows.Forms.TextBox()
+        Me.TXTamount = New System.Windows.Forms.TextBox()
+        Me.TXTresult = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -46,7 +46,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Bahnschrift Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(112, 147)
+        Me.Label1.Location = New System.Drawing.Point(107, 147)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(161, 25)
         Me.Label1.TabIndex = 0
@@ -55,84 +55,84 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(129, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(124, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(125, 122)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'btnConvert
+        'BTNconvert
         '
-        Me.btnConvert.Location = New System.Drawing.Point(129, 410)
-        Me.btnConvert.Name = "btnConvert"
-        Me.btnConvert.Size = New System.Drawing.Size(125, 58)
-        Me.btnConvert.TabIndex = 2
-        Me.btnConvert.Text = "Convert"
-        Me.btnConvert.UseVisualStyleBackColor = True
+        Me.BTNconvert.Location = New System.Drawing.Point(125, 426)
+        Me.BTNconvert.Name = "BTNconvert"
+        Me.BTNconvert.Size = New System.Drawing.Size(125, 58)
+        Me.BTNconvert.TabIndex = 2
+        Me.BTNconvert.Text = "Convert"
+        Me.BTNconvert.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BTNgithub
         '
-        Me.Button2.Location = New System.Drawing.Point(12, 572)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BTNgithub.Location = New System.Drawing.Point(12, 572)
+        Me.BTNgithub.Name = "BTNgithub"
+        Me.BTNgithub.Size = New System.Drawing.Size(75, 23)
+        Me.BTNgithub.TabIndex = 3
+        Me.BTNgithub.Text = "GitHub"
+        Me.BTNgithub.UseVisualStyleBackColor = True
         '
-        'Button3
+        'BTNclose
         '
-        Me.Button3.Location = New System.Drawing.Point(288, 572)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Button2"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.BTNclose.Location = New System.Drawing.Point(288, 572)
+        Me.BTNclose.Name = "BTNclose"
+        Me.BTNclose.Size = New System.Drawing.Size(75, 23)
+        Me.BTNclose.TabIndex = 3
+        Me.BTNclose.Text = "Close"
+        Me.BTNclose.UseVisualStyleBackColor = True
         '
-        'Button4
+        'BTNhelp
         '
-        Me.Button4.Location = New System.Drawing.Point(195, 572)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button2"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.BTNhelp.Location = New System.Drawing.Point(195, 572)
+        Me.BTNhelp.Name = "BTNhelp"
+        Me.BTNhelp.Size = New System.Drawing.Size(75, 23)
+        Me.BTNhelp.TabIndex = 3
+        Me.BTNhelp.Text = "Help"
+        Me.BTNhelp.UseVisualStyleBackColor = True
         '
-        'Button5
+        'BTNmemo
         '
-        Me.Button5.Location = New System.Drawing.Point(103, 572)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 3
-        Me.Button5.Text = "Button2"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.BTNmemo.Location = New System.Drawing.Point(103, 572)
+        Me.BTNmemo.Name = "BTNmemo"
+        Me.BTNmemo.Size = New System.Drawing.Size(75, 23)
+        Me.BTNmemo.TabIndex = 3
+        Me.BTNmemo.Text = "Memo"
+        Me.BTNmemo.UseVisualStyleBackColor = True
         '
-        'Button6
+        'BTNclear
         '
-        Me.Button6.Location = New System.Drawing.Point(129, 474)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(125, 32)
-        Me.Button6.TabIndex = 2
-        Me.Button6.Text = "Button1"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.BTNclear.Location = New System.Drawing.Point(125, 490)
+        Me.BTNclear.Name = "BTNclear"
+        Me.BTNclear.Size = New System.Drawing.Size(125, 32)
+        Me.BTNclear.TabIndex = 2
+        Me.BTNclear.Text = "Clear"
+        Me.BTNclear.UseVisualStyleBackColor = True
         '
-        'cmbFrom
+        'CMBfrom
         '
-        Me.cmbFrom.FormattingEnabled = True
-        Me.cmbFrom.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
-        Me.cmbFrom.Location = New System.Drawing.Point(12, 286)
-        Me.cmbFrom.Name = "cmbFrom"
-        Me.cmbFrom.Size = New System.Drawing.Size(166, 21)
-        Me.cmbFrom.TabIndex = 4
+        Me.CMBfrom.FormattingEnabled = True
+        Me.CMBfrom.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
+        Me.CMBfrom.Location = New System.Drawing.Point(12, 286)
+        Me.CMBfrom.Name = "CMBfrom"
+        Me.CMBfrom.Size = New System.Drawing.Size(166, 21)
+        Me.CMBfrom.TabIndex = 4
         '
-        'cmbTo
+        'CMBto
         '
-        Me.cmbTo.FormattingEnabled = True
-        Me.cmbTo.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
-        Me.cmbTo.Location = New System.Drawing.Point(195, 286)
-        Me.cmbTo.Name = "cmbTo"
-        Me.cmbTo.Size = New System.Drawing.Size(166, 21)
-        Me.cmbTo.TabIndex = 4
+        Me.CMBto.FormattingEnabled = True
+        Me.CMBto.Items.AddRange(New Object() {"Indonesian Rupiah - IDR", "United States Dollar - USD", "European Euros - EUR"})
+        Me.CMBto.Location = New System.Drawing.Point(195, 286)
+        Me.CMBto.Name = "CMBto"
+        Me.CMBto.Size = New System.Drawing.Size(166, 21)
+        Me.CMBto.TabIndex = 4
         '
         'Label2
         '
@@ -152,19 +152,21 @@ Partial Class Form1
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Convert To :"
         '
-        'txtAmount
+        'TXTamount
         '
-        Me.txtAmount.Location = New System.Drawing.Point(12, 224)
-        Me.txtAmount.Name = "txtAmount"
-        Me.txtAmount.Size = New System.Drawing.Size(349, 20)
-        Me.txtAmount.TabIndex = 6
+        Me.TXTamount.Location = New System.Drawing.Point(12, 224)
+        Me.TXTamount.Name = "TXTamount"
+        Me.TXTamount.Size = New System.Drawing.Size(349, 20)
+        Me.TXTamount.TabIndex = 6
         '
-        'txtResult
+        'TXTresult
         '
-        Me.txtResult.Location = New System.Drawing.Point(12, 356)
-        Me.txtResult.Name = "txtResult"
-        Me.txtResult.Size = New System.Drawing.Size(349, 20)
-        Me.txtResult.TabIndex = 6
+        Me.TXTresult.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.TXTresult.Location = New System.Drawing.Point(12, 356)
+        Me.TXTresult.Name = "TXTresult"
+        Me.TXTresult.ReadOnly = True
+        Me.TXTresult.Size = New System.Drawing.Size(349, 20)
+        Me.TXTresult.TabIndex = 6
         '
         'Label4
         '
@@ -184,32 +186,32 @@ Partial Class Form1
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Result :"
         '
-        'Form1
+        'FORMmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(376, 607)
-        Me.Controls.Add(Me.txtResult)
-        Me.Controls.Add(Me.txtAmount)
+        Me.Controls.Add(Me.TXTresult)
+        Me.Controls.Add(Me.TXTamount)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.cmbTo)
-        Me.Controls.Add(Me.cmbFrom)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.btnConvert)
+        Me.Controls.Add(Me.CMBto)
+        Me.Controls.Add(Me.CMBfrom)
+        Me.Controls.Add(Me.BTNmemo)
+        Me.Controls.Add(Me.BTNhelp)
+        Me.Controls.Add(Me.BTNclose)
+        Me.Controls.Add(Me.BTNgithub)
+        Me.Controls.Add(Me.BTNclear)
+        Me.Controls.Add(Me.BTNconvert)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "FORMmain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Currency Converter"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -220,18 +222,18 @@ Partial Class Form1
 
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents btnConvert As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents cmbFrom As ComboBox
-    Friend WithEvents cmbTo As ComboBox
+    Friend WithEvents BTNconvert As Button
+    Friend WithEvents BTNgithub As Button
+    Friend WithEvents BTNclose As Button
+    Friend WithEvents BTNhelp As Button
+    Friend WithEvents BTNmemo As Button
+    Friend WithEvents BTNclear As Button
+    Friend WithEvents CMBfrom As ComboBox
+    Friend WithEvents CMBto As ComboBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents txtAmount As TextBox
-    Friend WithEvents txtResult As TextBox
+    Friend WithEvents TXTamount As TextBox
+    Friend WithEvents TXTresult As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
 End Class
