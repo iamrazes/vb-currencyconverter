@@ -1,4 +1,5 @@
 ﻿Imports System.Data.Odbc
+
 Public Class FORMmemo
 
     Dim tglmysql As String
