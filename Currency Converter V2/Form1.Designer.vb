@@ -162,10 +162,11 @@ Partial Class FORMmain
         'TXTresult
         '
         Me.TXTresult.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.TXTresult.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TXTresult.Location = New System.Drawing.Point(12, 356)
         Me.TXTresult.Name = "TXTresult"
         Me.TXTresult.ReadOnly = True
-        Me.TXTresult.Size = New System.Drawing.Size(349, 20)
+        Me.TXTresult.Size = New System.Drawing.Size(349, 38)
         Me.TXTresult.TabIndex = 6
         '
         'Label4

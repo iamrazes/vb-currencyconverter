@@ -33,8 +33,11 @@ Partial Class FORMhelp
         '
         'RichTextBox1
         '
+        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.RichTextBox1.Location = New System.Drawing.Point(34, 202)
         Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(389, 333)
         Me.RichTextBox1.TabIndex = 4
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
