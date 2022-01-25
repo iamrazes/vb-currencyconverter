@@ -24,3 +24,7 @@ C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\obj\Deb
 C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\obj\Debug\Currency_Converter_V2.FORMhelp.resources
 C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\obj\Debug\Currency_Converter_V2.FORMmain.resources
 C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\obj\Debug\Currency_Converter_V2.FORMmemo.resources
+C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\bin\Debug\Currency Converter V2.exe.manifest
+C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\bin\Debug\Currency Converter V2.application
+C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\obj\Debug\Currency Converter V2.exe.manifest
+C:\Users\RAZES\source\repos\vb-currnecyconverterv2\Currency Converter V2\obj\Debug\Currency Converter V2.application
