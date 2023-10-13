@@ -1,4 +1,3 @@
-## About
+## About CurrencyConverter
 
-
-## Currency Converter V2
+CurrencyConverter is a user-friendly application developed in Visual Basic, designed to swiftly convert currency values between different countries.
